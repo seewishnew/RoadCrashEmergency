@@ -5,7 +5,7 @@
     <Button
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:id="@+id/button"
+        android:id="@+id/addContactsButton"
         android:backgroundTint="@color/foreground"
         android:background="@drawable/ic_plus"
         android:layout_alignParentBottom="true"
@@ -19,7 +19,17 @@
         android:id="@+id/listView"
         android:layout_centerHorizontal="true"
         android:layout_alignParentTop="true"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/addContactsButton"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"/>
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/travelImageButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_travel"
+        android:backgroundTint="@color/foreground"
+         />
 </RelativeLayout>
